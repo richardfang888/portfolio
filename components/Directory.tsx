@@ -21,13 +21,13 @@ const directoryItemsTop = [
 
 const directoryItemsBot = [
   {
-    name: 'Contact.css',
-    path: '/contact',
+    name: 'Experience.css',
+    path: '/experience',
     icon: 'css_icon.svg',
   },
   {
-    name: 'Github.md',
-    path: '/github',
+    name: 'Contact.md',
+    path: '/contact',
     icon: 'markdown_icon.svg',
   },
 ];
@@ -40,17 +40,17 @@ const projectItems = [
   },
   {
     name: 'video_call.js',
-    path: '/projects',
+    path: '/projects/video_call',
     icon: 'js_icon.svg',
   },
   {
     name: 'soccer_analysis.js',
-    path: '/projects',
+    path: '/projects/soccer_analysis',
     icon: 'js_icon.svg',
   },
   {
     name: 'spotify_ai.js',
-    path: '/projects',
+    path: '/projects/spotify_ai',
     icon: 'js_icon.svg',
   },
 ];
