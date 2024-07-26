@@ -1,0 +1,87 @@
+.directory {
+    background: var(--directory-bg);
+    width: 18vw;
+    color: rgb(225, 228, 232);
+    font-family: 'Source Sans Pro', sans-serif;
+    border-right: 1px solid var(--directory-border);
+  }
+  
+  .title {
+    padding: 0.5rem 0.75rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-left: 0.75rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .heading {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 0.5rem;
+  }
+  
+  .checkbox {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  .files {
+    padding: 0.5rem 0;
+    cursor: pointer;
+  }
+  
+  .file {
+    padding: 0.2rem 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+  }
+  
+  .file p {
+    margin-left: 5px;
+  }
+  
+  .file:hover {
+    background: var(--directory-hover-bg);
+  }
+  
+  .chevron {
+    transition: transform 0.2s;
+    margin-right: 4px;
+  }
+
+  .projectItem {
+    margin-left: 6px;
+  }
+  
+  .projectHeading {
+    margin-left: 2px;
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 2000px) {
+    .directory {
+      width: 10vw;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .directory {
+      width: 20vw;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .directory {
+      display: none;
+    }
+  }
