@@ -3,6 +3,7 @@
 import { ReactNode, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Sidebar from "./Sidebar";
+import Tabsbar from "./Tabsbar";
 import Directory from "./Directory";
 import styles from '@/styles/Layout.module.css';
 
@@ -22,6 +23,7 @@ const Layout = ({ children } : { children: ReactNode }) => {
         <Sidebar />
         <Directory />
         <div style={{ width: "100%" }}>
+          <Tabsbar />
           <main id="main-editor" className={styles.content}>
             {children}
           </main>

@@ -21,14 +21,14 @@ const directoryItemsTop = [
 
 const directoryItemsBot = [
   {
-    name: 'Experience.css',
+    name: 'Experience.md',
     path: '/experience',
-    icon: 'css_icon.svg',
+    icon: 'markdown_icon.svg',
   },
   {
-    name: 'Contact.md',
+    name: 'Contact.css',
     path: '/contact',
-    icon: 'markdown_icon.svg',
+    icon: 'css_icon.svg',
   },
 ];
 
