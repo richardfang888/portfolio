@@ -13,6 +13,14 @@ const initialTabs = [
   { icon: '/css_icon.svg', filename: 'contact.css', path: '/contact' },
 ];
 
+const allTabs = [
+  ...initialTabs,
+  { icon: '/settings_icon.svg', filename: 'Settings', path: '/settings' },
+  { icon: '/js_icon.svg', filename: 'video_call.js', path: '/projects/video_call' },
+  { icon: '/js_icon.svg', filename: 'soccer_analysis.js', path: '/projects/soccer_analysis' },
+  { icon: '/js_icon.svg', filename: 'spotify_ai.js', path: '/projects/spotify_ai' },
+];
+
 const Tabsbar = () => {
   const [tabs, setTabs] = useState(initialTabs);
   const pathname = usePathname();
@@ -23,7 +31,7 @@ const Tabsbar = () => {
     const addNewTab = () => {
       const isActiveTabInTabs = tabs.some(tab => tab.path === pathname);
       if (!isActiveTabInTabs) {
-        const newTab = initialTabs.find(tab => tab.path === pathname);
+        const newTab = allTabs.find(tab => tab.path === pathname);
         if (newTab) {
           setTabs(prevTabs => [...prevTabs, newTab]);
         }

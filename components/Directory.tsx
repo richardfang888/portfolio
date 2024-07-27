@@ -8,12 +8,12 @@ import styles from '../styles/Directory.module.css';
 
 const directoryItemsTop = [
   {
-    name: 'Home.jsx',
+    name: 'home.jsx',
     path: '/',
     icon: 'react_icon.svg',
   },
   {
-    name: 'About.html',
+    name: 'about.html',
     path: '/about',
     icon: 'html_icon.svg',
   },
@@ -21,12 +21,12 @@ const directoryItemsTop = [
 
 const directoryItemsBot = [
   {
-    name: 'Experience.md',
+    name: 'experience.md',
     path: '/experience',
     icon: 'markdown_icon.svg',
   },
   {
-    name: 'Contact.css',
+    name: 'contact.css',
     path: '/contact',
     icon: 'css_icon.svg',
   },
@@ -34,7 +34,7 @@ const directoryItemsBot = [
 
 const projectItems = [
   {
-    name: 'project_list.js',
+    name: 'projects.js',
     path: '/projects',
     icon: 'js_icon.svg',
   },

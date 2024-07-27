@@ -1,6 +1,7 @@
 .tabContainer {
     display: flex;
     align-items: center;
+    border: 1px solid var(--tab-border);
   }
   
   .link {
@@ -8,21 +9,19 @@
   }
   
   .closeButton {
-    background: none;
-    border: none;
-    color: inherit;
-    font-size: 0.5rem;
+    background: var(--tab-bg);
+    color: #ececec;
+    font-size: 0.75rem;
     cursor: pointer;
-    margin-left: 10px;
+    justify-content: left;
+    padding: 0.25rem;
   }
   
   .tab {
-    padding: 0.5rem 1.25rem;
-    background: var(--tab-bg);
+    padding: 0.25rem 1rem;
     color: #ececec;
     display: flex;
     align-items: center;
-    border: 1px solid var(--tab-border);
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.9rem;
     cursor: pointer;
@@ -36,5 +35,9 @@
     border-top: 1px solid var(--accent-color);
     background: var(--tab-active-bg);
     border-bottom: none;
+  }
+
+  .tabContainer.active .closeButton {
+    background: var(--tab-active-bg);
   }
   
