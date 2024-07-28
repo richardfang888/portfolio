@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "name": "Voom",
+      "image": "/video_call.png",
+      "description": "A real-time video calling web app",
+      "tags": ["next", "node", "tailwind", "auth"],
+      "source_code": "https://github.com/richardfang888/voom",
+      "demo": "https://voomvideo.vercel.app/"
+    },
+    {
+      "id": 2,
+      "name": "Soccer Analysis",
+      "image": "/soccer_analysis.png",
+      "description": "Using machine learning and computer vision to analyze soccer game footage",
+      "tags": ["python", "opencv", "supervision", "numpy", "matplotlib", "pandas", "yolo"],
+      "source_code": "https://github.com/richardfang888/analysoccer",
+      "demo": "https://drive.google.com/file/d/1EDCCkad6-CiFRDSPnTzP5Z7VwBRrC5pp/view?usp=drive_link"
+    },
+    {
+      "id": 3,
+      "name": "SpotifAI",
+      "image": "/spotifai.png",
+      "description": "An AI powered dashboard for Spotify",
+      "tags": ["react", "node", "firebase", "openai", "material-ui", "threejs", "auth"],
+      "source_code": "https://github.com/itsnitinr/healthyways",
+      "demo": "https://www.youtube.com/watch?v=5rGKJJn6jwI"
+    }
+  ]

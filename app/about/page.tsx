@@ -21,7 +21,7 @@ const AboutPage: React.FC = () => {
       </section>
 
       <section>
-        <a href={'Richard_Fang_resume.pdf'} target="_blank" rel="noreferrer" className={styles.markdownButton}>
+        <a href={'/data/Richard_Fang_resume.pdf'} target="_blank" rel="noreferrer" className={styles.markdownButton}>
           [Download Resume]
         </a>
       </section>

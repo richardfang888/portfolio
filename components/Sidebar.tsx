@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { useSelectedLayoutSegment } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import FilesIcon from './icons/FilesIcon';
 import ProjectIcon from './icons/ProjectIcon';
 import ContactIcon from './icons/ContactIcon';
@@ -39,7 +39,7 @@ const sidebarBottomItems = [
 ];
 
 const Sidebar = () => {
-  const segment = useSelectedLayoutSegment();
+  const currentPath = usePathname();
 
   return (
     <aside className={styles.sidebar}>
@@ -48,12 +48,12 @@ const Sidebar = () => {
           <Link href={path} key={path}>
             <div
               className={`${styles.iconContainer} ${
-                segment === path && styles.active
+                currentPath === path && styles.active
               }`}
             >
               <Icon
                 fill={
-                  segment === path
+                  currentPath === path
                     ? 'rgb(225, 228, 232)'
                     : 'rgb(106, 115, 125)'
                 }
@@ -68,12 +68,12 @@ const Sidebar = () => {
           <Link href={path} key={path}>
             <div
               className={`${styles.iconContainer} ${
-                segment === path && styles.active
+                currentPath === path && styles.active
               }`}
             >
               <Icon
                 fill={
-                  segment === path
+                  currentPath === path
                     ? 'rgb(225, 228, 232)'
                     : 'rgb(106, 115, 125)'
                 }
