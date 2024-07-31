@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Software Engineer Intern",
+      "company_name": "Goodcount",
+      "icon": "/goodcount.png",
+      "iconBg": "#383E56",
+      "date": "May 2022 - Sep 2022",
+      "points": [
+        "Built Python web scraping program to perform market research and competitive content analysis",
+        "Built analytics platform with MERN stack to calculate performance metrics and generate reports"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Software Engineer Intern",
+      "company_name": "DigiPart",
+      "icon": "/digipart.png",
+      "iconBg": "#E6DEDD",
+      "date": "Jun 2023 - Sep 2023",
+      "points": [
+        "Built email and push notification platform in NodeJS to send 5000+ marketing emails and instant updates regarding order and payment information",
+        "Leveraged AWS tools (Lambda, DynamoDB, API Gateway) to improve efficiency of Java billing service and reduce operational costs by 25%"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Software Engineer Intern",
+      "company_name": "ByteMelodies",
+      "icon": "/bytemelodies.png",
+      "iconBg": "#E6DEDD",
+      "date": "Jun 2024 - Present",
+      "points": [
+        "Built dynamic full stack user dashboard, 200+ users including top international shipping companies",
+        "Authentication and user management with AWS Cognito, React frontend, API Gateway and PostgreSQL backend"
+      ]
+    }
+]

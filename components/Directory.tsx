@@ -40,17 +40,17 @@ const projectItems = [
   },
   {
     name: 'video_call.js',
-    path: '/projects/video_call',
+    path: '/projects',
     icon: 'js_icon.svg',
   },
   {
     name: 'soccer_analysis.js',
-    path: '/projects/soccer_analysis',
+    path: '/projects',
     icon: 'js_icon.svg',
   },
   {
     name: 'spotify_ai.js',
-    path: '/projects/spotify_ai',
+    path: '/projects',
     icon: 'js_icon.svg',
   },
 ];

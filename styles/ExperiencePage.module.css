@@ -1,0 +1,13 @@
+  .sectionSubText {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--secondary-color);
+    font-size: 0.875rem;
+  }
+  
+  @media (min-width: 640px) {
+    .sectionSubText {
+      font-size: 1.125rem;
+    }
+  }
+  

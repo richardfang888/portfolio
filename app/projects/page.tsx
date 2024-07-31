@@ -18,7 +18,7 @@ const ProjectsPage = () => {
   
   return (
     <>
-      <h3>Personal Projects</h3>
+      <h1 style={{ fontSize: '3rem' }}>Personal Projects</h1>
       <div className={styles.container}>
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
