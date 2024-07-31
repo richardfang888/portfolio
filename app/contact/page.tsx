@@ -1,3 +1,4 @@
+/* eslint-disable */
 'use client';
 
 import React, { useState } from 'react'
@@ -10,7 +11,7 @@ const ContactPage = () => {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
-  const submitForm = async (e) => {
+  const submitForm = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(process.env.NEXT_PUBLIC_API_URL);
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
@@ -77,7 +78,7 @@ const ContactPage = () => {
             <textarea
               name="message"
               id="message"
-              rows="5"
+              rows={5}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required

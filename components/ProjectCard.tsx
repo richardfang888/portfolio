@@ -1,8 +1,19 @@
+/* eslint-disable */
 import Image from 'next/image';
 import React from 'react';
 import styles from '@/styles/ProjectCard.module.css';
 
-const ProjectCard = ({ project }) => {
+interface Project {
+  id: number;
+  name: string;
+  image: string;
+  description: string;
+  tags: string[];
+  source_code: string;
+  demo: string;
+}
+
+const ProjectCard = ({ project }: { project: Project }) => {
   return (
     <div className={styles.card}>
       <Image

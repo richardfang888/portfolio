@@ -8,7 +8,7 @@ const AboutPage: React.FC = () => {
       <section>
         <h1 className={styles.headingPrimary}># About</h1>
         <hr />
-        <p>Hi! My name is Richard Fang. I'm a full stack software engineer, currently pursuing my Bachelor of Science in Computer Science from the University of California, Santa Barbara.</p>
+        <p>Hi! My name is Richard Fang. I&apos;m a full stack software engineer, currently pursuing my Bachelor of Science in Computer Science from the University of California, Santa Barbara.</p>
         <p>
           I would describe myself as curious, passionate, and disciplined. I love diving blindly into technologies and frameworks and learning from doing as I build interesting new projects from the ground up. For some examples of recent projects, see 
           <Link href="/projects" className={styles.link}> projects.js</Link>.
@@ -21,7 +21,7 @@ const AboutPage: React.FC = () => {
       </section>
 
       <section>
-        <a href={'/data/Richard_Fang_resume.pdf'} target="_blank" rel="noreferrer" className={styles.markdownButton}>
+        <a href='/data/Richard_Fang_resume.pdf' target="_blank" rel="noreferrer" className={styles.markdownButton}>
           [Download Resume]
         </a>
       </section>
