@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Soccer Analysis",
-      "image": "/soccer_analysis.png",
+      "image": "/soccer_analysis.PNG",
       "description": "Using machine learning and computer vision to analyze soccer game footage",
       "tags": ["python", "opencv", "supervision", "numpy", "matplotlib", "pandas", "yolo"],
       "source_code": "https://github.com/richardfang888/analysoccer",
