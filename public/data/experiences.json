@@ -8,7 +8,7 @@
       "date": "May 2022 - Sep 2022",
       "points": [
         "Built Python web scraping program to perform market research and competitive content analysis",
-        "Built analytics platform with MERN stack to calculate performance metrics and generate reports"
+        "Generated performance metrics and reports from website and database activity using JavaScript"
       ]
     },
     {
@@ -19,8 +19,8 @@
       "iconBg": "#E6DEDD",
       "date": "Jun 2023 - Sep 2023",
       "points": [
-        "Built email and push notification platform in NodeJS to send 5000+ marketing emails and instant updates regarding order and payment information",
-        "Leveraged AWS tools (Lambda, DynamoDB, API Gateway) to improve efficiency of Java billing service and reduce operational costs by 25%"
+        "Worked in team of 5 to build an email and push notification system in NodeJS with Express to send 500+ daily marketing emails and instant updates regarding order and payment information",
+        "Leveraged AWS tools (Lambda, Amazon SES/SNS) to improve efficiency of service and reduce operational costs by over 25%"
       ]
     },
     {
@@ -31,8 +31,9 @@
       "iconBg": "#E6DEDD",
       "date": "Jun 2024 - Present",
       "points": [
-        "Built dynamic full stack user dashboard, 200+ users including top international shipping companies",
-        "Authentication and user management with AWS Cognito, React frontend, API Gateway and PostgreSQL backend"
+        "Primarily worked on development of the backend user dashboard and user management for top shipping and supply chain company clients",
+        "Contributed to development of the microservices architecture and worked with frontend team to reduce load time by 20% through optimizing server-side rendering",
+        "Collaborated with databases team through process of scaling databases and migrating 0.5 TB of data"
       ]
     }
 ]

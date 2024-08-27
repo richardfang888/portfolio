@@ -1,37 +1,41 @@
 .headingPrimary {
     font-size: 3rem;
     color: var(--purple);
+}
+
+@media (min-width: 768px) {
+  .headingPrimary {
+    font-size: 5rem;
   }
-  
-  @media (min-width: 768px) {
-    .headingPrimary {
-      font-size: 5rem;
-    }
-  }
-  
-  .link {
-    font-weight: bold;
-    color: var(--yellow);
-  }
-  
-  .markdownButton {
-    font-weight: bold;
-    color: var(--yellow);
-  }
-  
+}
+
+.link {
+  font-weight: bold;
+  color: var(--yellow);
+}
+
+.markdownButton {
+  font-weight: bold;
+  color: var(--yellow);
+}
+
+.headingSecondary {
+  font-size: 1.25rem;
+  color: var(--purple);
+}
+
+@media (min-width: 768px) {
   .headingSecondary {
-    font-size: 1.25rem;
-    color: var(--purple);
+    font-size: 3rem;
   }
-  
-  @media (min-width: 768px) {
-    .headingSecondary {
-      font-size: 3rem;
-    }
-  }
-  
-  .boldPink {
-    font-weight: bold;
-    color: var(--pink);
-  }
-  
+}
+
+.boldPink {
+  font-weight: bold;
+  color: var(--pink);
+  margin-bottom: 16px;
+}
+
+.paragraph {
+  margin-bottom: 16px;
+}
