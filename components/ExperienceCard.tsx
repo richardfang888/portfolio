@@ -13,6 +13,8 @@ interface Experience {
   iconBg: string;
   date: string;
   points: string[];
+  link?: string;   // <-- optional link
+  linkLabel?: string; // <-- optional label text
 }
 
 const ExperienceCard = ({ experience }: { experience: Experience }) => {
@@ -58,6 +60,20 @@ const ExperienceCard = ({ experience }: { experience: Experience }) => {
           </li>
         ))}
       </ul>
+
+      {/* Conditionally render link */}
+      {experience.link && (
+        <div className="mt-4">
+          <a
+            href={experience.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline"
+          >
+            {experience.linkLabel || "Learn more"}
+          </a>
+        </div>
+      )}
     </VerticalTimelineElement>
   );
 };

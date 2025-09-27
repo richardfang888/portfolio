@@ -1,39 +1,49 @@
 [
-    {
-      "id": 1,
-      "title": "Software Engineer Intern",
-      "company_name": "Goodcount",
-      "icon": "/goodcount.png",
-      "iconBg": "#383E56",
-      "date": "May 2022 - Sep 2022",
-      "points": [
-        "Built Python web scraping program to perform market research and competitive content analysis",
-        "Generated performance metrics and reports from website and database activity using JavaScript"
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Software Engineer Intern",
-      "company_name": "DigiPart",
-      "icon": "/digipart.png",
-      "iconBg": "#E6DEDD",
-      "date": "Jun 2023 - Sep 2023",
-      "points": [
-        "Worked in team of 5 to build an email and push notification system in NodeJS with Express to send 500+ daily marketing emails and instant updates regarding order and payment information",
-        "Leveraged AWS tools (Lambda, Amazon SES/SNS) to improve efficiency of service and reduce operational costs by over 25%"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Software Engineer Intern",
-      "company_name": "ByteMelodies",
-      "icon": "/bytemelodies.png",
-      "iconBg": "#E6DEDD",
-      "date": "Jun 2024 - Present",
-      "points": [
-        "Primarily worked on development of the backend user dashboard and user management for top shipping and supply chain company clients",
-        "Contributed to development of the microservices architecture and worked with frontend team to reduce load time by 20% through optimizing server-side rendering",
-        "Collaborated with databases team through process of scaling databases and migrating 0.5 TB of data"
-      ]
-    }
+  {
+    "id": 1,
+    "title": "Researcher",
+    "company_name": "Generative Virtual Reality",
+    "icon": "/vr_glasses.png",
+    "iconBg": "#E6DEDD",
+    "date": "Jun 2024 - Sep 2024",
+    "points": [
+      "Designed and built AI that generates VR scenes from user text prompts (integrates OpenAI API)"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Backend Engineer Intern",
+    "company_name": "ByteMelodies",
+    "icon": "/bytemelodies.PNG",
+    "iconBg": "#E6DEDD",
+    "date": "Jun 2024 - Sep 2024",
+    "points": [
+      "Engineered data migration strategies to transfer 0.5 TB data while preserving system functionality",
+      "Developed user dashboard and user management backend for supply chain company clients",
+      "Implemented server-side rendering reducing load time by 20%"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Software Engineer Intern",
+    "company_name": "DigiPart",
+    "icon": "/digipart.png",
+    "iconBg": "#E6DEDD",
+    "date": "Jun 2023 - Sep 2023",
+    "points": [
+      "Created notification system in Node.js/Express, sending 500+ daily instant transactional updates",
+      "Leveraged AWS tools (Lambda, Amazon SES/SNS) to improve efficiency and reduce costs by 27%"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Software Engineer Intern",
+    "company_name": "Goodcount",
+    "icon": "/goodcount.png",
+    "iconBg": "#383E56",
+    "date": "May 2022 - Sep 2022",
+    "points": [
+      "Built Python web scraping program to perform market research and competitive content analysis"
+    ]
+  }
 ]

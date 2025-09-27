@@ -19,15 +19,28 @@ const ExperiencePage = () => {
 
   return (
     <>
-      <h1 style={{ fontSize: '3rem' }} className={`text-center`}>
+      <h1 style={{ fontSize: '3rem' }} className="text-center">
         Work Experience
       </h1>
-      {experiences.map((experience) => (
-        <ExperienceCard
-          key={experience.id}
-          experience={experience}
-        />
-      ))}
+
+      {experiences.map((experience) => {
+        // Default values
+        let link: string | undefined = undefined;
+        let linkLabel: string | undefined = undefined;
+
+        // Add link if company matches
+        if (experience.company_name === "Generative Virtual Reality") {
+          link = "/data/Generative_VR.pdf";
+          linkLabel = "Link to Paper";
+        }
+
+        return (
+          <ExperienceCard
+            key={experience.id}
+            experience={{ ...experience, link, linkLabel }}
+          />
+        );
+      })}
     </>
   );
 }
