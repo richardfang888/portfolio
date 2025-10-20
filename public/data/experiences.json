@@ -2,12 +2,14 @@
   {
     "id": 1,
     "title": "Researcher",
-    "company_name": "Generative Virtual Reality",
+    "company_name": "University of Osaka",
     "icon": "/vr_glasses.png",
     "iconBg": "#E6DEDD",
     "date": "Jun 2024 - Sep 2024",
     "points": [
-      "Designed and built AI that generates VR scenes from user text prompts (integrates OpenAI API)"
+      "Built end-to-end generative VR pipeline integrating OpenAI API and custom ML inference services",
+      "Designed multi-component distributed system for asset retrieval, 3D scene generation, and cloud synchronization",
+      "Deployed models and services on Kubernetes clusters, focusing on scalability and fault tolerance"
     ]
   },
   {
@@ -18,8 +20,8 @@
     "iconBg": "#E6DEDD",
     "date": "Jun 2024 - Sep 2024",
     "points": [
-      "Engineered data migration strategies to transfer 0.5 TB data while preserving system functionality",
-      "Developed user dashboard and user management backend for supply chain company clients",
+      "Engineered data migration pipeline for 0.5 TB dataset ensuring data integrity and minimal downtime",
+      "Developed microservices-based backend with Node.js and PostgreSQL for supply chain company",
       "Implemented server-side rendering reducing load time by 20%"
     ]
   },
